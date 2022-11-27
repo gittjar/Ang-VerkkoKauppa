@@ -32,7 +32,7 @@ import { ShippingComponent } from './shipping/shipping.component';
     ])
   ],
 
-// importsiin myˆs DEFAULT_CURRENCY_CODE n‰ytt‰‰ hinnat euroina
+// importsiin my√∂s DEFAULT_CURRENCY_CODE n√§ytt√§√§ hinnat euroina
   
     providers: [
       { provide: DEFAULT_CURRENCY_CODE, useValue: 'EUR' },

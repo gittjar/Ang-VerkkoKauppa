@@ -134,8 +134,8 @@ app-top-bar {
 
 input {
   width: 25%;
-  background-color: rgb(23, 111, 198);
-  color: white;
+  background-color: rgb(236, 243, 250);
+  color: rgb(6, 5, 5);
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 1px;
