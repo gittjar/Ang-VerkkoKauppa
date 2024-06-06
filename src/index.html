@@ -14,5 +14,25 @@
   </head>
   <body>
     <app-root></app-root>
+
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyBqvtyv9J3a_l4-y1HrZ8MCZrM5Z2x3HIw",
+    authDomain: "verkkokauppa-test.firebaseapp.com",
+    projectId: "verkkokauppa-test",
+    storageBucket: "verkkokauppa-test.appspot.com",
+    messagingSenderId: "524719392355",
+    appId: "1:524719392355:web:3ab66c7002dbe758a21a56"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
   </body>
 </html>

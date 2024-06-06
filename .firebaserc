@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "verkkokauppa-test"
+  },
+  "targets": {
+    "verkkokauppa-test": {
+      "hosting": {
+        "verkkokauppa": [
+          "verkkokauppa-test"
+        ]
+      }
+    }
+  }
+}
